@@ -1,0 +1,13 @@
+Testsuite: cz.actis.cms.ArticleRestControllerSpec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 1,43 sec
+------------- Standard Output ---------------
+--Output from Load published Articles--
+[[id:2, articleState:[enumType:cz.actis.cms.ArticleState, name:PUBLISHED], articleUrl:bbb, body:<p>Hello WORLD!</p>, category:[id:1], dateArchived:2014-01-28T23:00:00Z, dateCreated:2014-01-31T13:17:58Z, datePublished:2014-01-27T23:00:00Z, lastUpdated:2014-01-31T13:17:58Z, title:Hello world], [id:3, articleState:[enumType:cz.actis.cms.ArticleState, name:PUBLISHED], articleUrl:ccc, body:<p>Hello WORLD!</p>, category:[id:2], dateArchived:2014-01-28T23:00:00Z, dateCreated:2014-01-31T13:17:58Z, datePublished:2014-01-27T23:00:00Z, lastUpdated:2014-01-31T13:17:58Z, title:Hello world]]
+[id:2, articleState:[enumType:cz.actis.cms.ArticleState, name:PUBLISHED], articleUrl:bbb, body:<p>Hello WORLD!</p>, category:[id:1], dateArchived:2014-01-28T23:00:00Z, dateCreated:2014-01-31T13:17:58Z, datePublished:2014-01-27T23:00:00Z, lastUpdated:2014-01-31T13:17:58Z, title:Hello world]
+When
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from Load published Articles--
+------------- ---------------- ---------------
+
+Testcase: Load published Articles took 1,38 sec

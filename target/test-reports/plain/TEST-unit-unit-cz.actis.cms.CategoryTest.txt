@@ -1,0 +1,13 @@
+Testsuite: cz.actis.cms.CategoryTest
+Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 5,66 sec
+------------- Standard Output ---------------
+--Output from urlId is correct--
+--Output from Method loadPublished Articles() retrieves correct data--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from urlId is correct--
+--Output from Method loadPublished Articles() retrieves correct data--
+------------- ---------------- ---------------
+
+Testcase: urlId is correct took 2,52 sec
+Testcase: Method loadPublished Articles() retrieves correct data took 2,42 sec

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="lunak-e6510" name="cz.actis.cms.ContentControllerSpec" tests="5" time="3.602" timestamp="2014-01-31T13:22:38">
+  <properties />
+  <testcase classname="cz.actis.cms.ContentControllerSpec" name="Index generates model from service" time="2.516" />
+  <testcase classname="cz.actis.cms.ContentControllerSpec" name="Show creates correct command for existing Article" time="0.23" />
+  <testcase classname="cz.actis.cms.ContentControllerSpec" name="Show throws 404 for not existing Article" time="0.164" />
+  <testcase classname="cz.actis.cms.ContentControllerSpec" name="Article is correctly updated via Command data object" time="0.524" />
+  <testcase classname="cz.actis.cms.ContentControllerSpec" name="Article edit screen is rendered for not valid Command data object" time="0.159" />
+  <system-out><![CDATA[--Output from Index generates model from service--
+--Output from Show creates correct command for existing Article--
+--Output from Show throws 404 for not existing Article--
+--Output from Article is correctly updated via Command data object--
+--Output from Article edit screen is rendered for not valid Command data object--
+]]></system-out>
+  <system-err><![CDATA[--Output from Index generates model from service--
+--Output from Show creates correct command for existing Article--
+--Output from Show throws 404 for not existing Article--
+--Output from Article is correctly updated via Command data object--
+--Output from Article edit screen is rendered for not valid Command data object--
+]]></system-err>
+</testsuite>

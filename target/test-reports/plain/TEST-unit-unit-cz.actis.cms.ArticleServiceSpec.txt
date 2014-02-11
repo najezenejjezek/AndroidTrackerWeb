@@ -1,0 +1,19 @@
+Testsuite: cz.actis.cms.ArticleServiceSpec
+Tests run: 4, Failures: 0, Errors: 0, Time elapsed: 2,83 sec
+------------- Standard Output ---------------
+--Output from Method archiveAllArticles should transfer all Articles to state Archived--
+--Output from Method loadAllPublishedArticles() should return all Articles in state PUBLISHED--
+--Output from Command with valid data correctly updates Article and Category--
+--Output from Command with incorrect data throws RuntimeException--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from Method archiveAllArticles should transfer all Articles to state Archived--
+--Output from Method loadAllPublishedArticles() should return all Articles in state PUBLISHED--
+--Output from Command with valid data correctly updates Article and Category--
+--Output from Command with incorrect data throws RuntimeException--
+------------- ---------------- ---------------
+
+Testcase: Method archiveAllArticles should transfer all Articles to state Archived took 0,99 sec
+Testcase: Method loadAllPublishedArticles() should return all Articles in state PUBLISHED took 0,45 sec
+Testcase: Command with valid data correctly updates Article and Category took 0,45 sec
+Testcase: Command with incorrect data throws RuntimeException took 0,34 sec

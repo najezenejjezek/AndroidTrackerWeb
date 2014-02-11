@@ -1,0 +1,11 @@
+Testsuite: cz.actis.cms.ArticleSpec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 1,56 sec
+------------- Standard Output ---------------
+--Output from Archive date must be greater than publish date--
+cz.actis.cms.Article : (unsaved)
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from Archive date must be greater than publish date--
+------------- ---------------- ---------------
+
+Testcase: Archive date must be greater than publish date took 0,48 sec

@@ -1,0 +1,4 @@
+--Output from Method archiveAllArticles should transfer all Articles to state Archived--
+--Output from Method loadAllPublishedArticles() should return all Articles in state PUBLISHED--
+--Output from Command with valid data correctly updates Article and Category--
+--Output from Command with incorrect data throws RuntimeException--

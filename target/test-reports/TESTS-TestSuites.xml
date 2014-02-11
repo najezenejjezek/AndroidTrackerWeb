@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="lunak-e6510" id="0" name="ArticleRestControllerSpec" package="cz.actis.cms" tests="1" time="1.429" timestamp="2014-01-31T13:22:59">
+      <properties />
+
+      <testcase classname="cz.actis.cms.ArticleRestControllerSpec" name="Load published Articles" time="1.378" />
+
+      <system-out><![CDATA[--Output from Load published Articles--
+[[id:2, articleState:[enumType:cz.actis.cms.ArticleState, name:PUBLISHED], articleUrl:bbb, body:<p>Hello WORLD!</p>, category:[id:1], dateArchived:2014-01-28T23:00:00Z, dateCreated:2014-01-31T13:17:58Z, datePublished:2014-01-27T23:00:00Z, lastUpdated:2014-01-31T13:17:58Z, title:Hello world], [id:3, articleState:[enumType:cz.actis.cms.ArticleState, name:PUBLISHED], articleUrl:ccc, body:<p>Hello WORLD!</p>, category:[id:2], dateArchived:2014-01-28T23:00:00Z, dateCreated:2014-01-31T13:17:58Z, datePublished:2014-01-27T23:00:00Z, lastUpdated:2014-01-31T13:17:58Z, title:Hello world]]
+[id:2, articleState:[enumType:cz.actis.cms.ArticleState, name:PUBLISHED], articleUrl:bbb, body:<p>Hello WORLD!</p>, category:[id:1], dateArchived:2014-01-28T23:00:00Z, dateCreated:2014-01-31T13:17:58Z, datePublished:2014-01-27T23:00:00Z, lastUpdated:2014-01-31T13:17:58Z, title:Hello world]
+When
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Load published Articles--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="lunak-e6510" id="1" name="ArticleServiceSpec" package="cz.actis.cms" tests="4" time="2.834" timestamp="2014-01-31T13:22:33">
+      <properties />
+
+      <testcase classname="cz.actis.cms.ArticleServiceSpec" name="Method archiveAllArticles should transfer all Articles to state Archived" time="0.989" />
+
+      <testcase classname="cz.actis.cms.ArticleServiceSpec" name="Method loadAllPublishedArticles() should return all Articles in state PUBLISHED" time="0.454" />
+
+      <testcase classname="cz.actis.cms.ArticleServiceSpec" name="Command with valid data correctly updates Article and Category" time="0.453" />
+
+      <testcase classname="cz.actis.cms.ArticleServiceSpec" name="Command with incorrect data throws RuntimeException" time="0.338" />
+
+      <system-out><![CDATA[--Output from Method archiveAllArticles should transfer all Articles to state Archived--
+--Output from Method loadAllPublishedArticles() should return all Articles in state PUBLISHED--
+--Output from Command with valid data correctly updates Article and Category--
+--Output from Command with incorrect data throws RuntimeException--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Method archiveAllArticles should transfer all Articles to state Archived--
+--Output from Method loadAllPublishedArticles() should return all Articles in state PUBLISHED--
+--Output from Command with valid data correctly updates Article and Category--
+--Output from Command with incorrect data throws RuntimeException--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="lunak-e6510" id="2" name="ArticleSpec" package="cz.actis.cms" tests="1" time="1.565" timestamp="2014-01-31T13:22:36">
+      <properties />
+
+      <testcase classname="cz.actis.cms.ArticleSpec" name="Archive date must be greater than publish date" time="0.476" />
+
+      <system-out><![CDATA[--Output from Archive date must be greater than publish date--
+cz.actis.cms.Article : (unsaved)
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Archive date must be greater than publish date--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="lunak-e6510" id="3" name="CategoryTest" package="cz.actis.cms" tests="2" time="5.664" timestamp="2014-01-31T13:22:28">
+      <properties />
+
+      <testcase classname="cz.actis.cms.CategoryTest" name="urlId is correct" time="2.523" />
+
+      <testcase classname="cz.actis.cms.CategoryTest" name="Method loadPublished Articles() retrieves correct data" time="2.423" />
+
+      <system-out><![CDATA[--Output from urlId is correct--
+--Output from Method loadPublished Articles() retrieves correct data--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from urlId is correct--
+--Output from Method loadPublished Articles() retrieves correct data--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="lunak-e6510" id="4" name="ContentControllerSpec" package="cz.actis.cms" tests="5" time="3.602" timestamp="2014-01-31T13:22:38">
+      <properties />
+
+      <testcase classname="cz.actis.cms.ContentControllerSpec" name="Index generates model from service" time="2.516" />
+
+      <testcase classname="cz.actis.cms.ContentControllerSpec" name="Show creates correct command for existing Article" time="0.23" />
+
+      <testcase classname="cz.actis.cms.ContentControllerSpec" name="Show throws 404 for not existing Article" time="0.164" />
+
+      <testcase classname="cz.actis.cms.ContentControllerSpec" name="Article is correctly updated via Command data object" time="0.524" />
+
+      <testcase classname="cz.actis.cms.ContentControllerSpec" name="Article edit screen is rendered for not valid Command data object" time="0.159" />
+
+      <system-out><![CDATA[--Output from Index generates model from service--
+--Output from Show creates correct command for existing Article--
+--Output from Show throws 404 for not existing Article--
+--Output from Article is correctly updated via Command data object--
+--Output from Article edit screen is rendered for not valid Command data object--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Index generates model from service--
+--Output from Show creates correct command for existing Article--
+--Output from Show throws 404 for not existing Article--
+--Output from Article is correctly updated via Command data object--
+--Output from Article edit screen is rendered for not valid Command data object--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

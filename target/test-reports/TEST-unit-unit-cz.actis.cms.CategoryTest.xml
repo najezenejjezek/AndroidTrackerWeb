@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="lunak-e6510" name="cz.actis.cms.CategoryTest" tests="2" time="5.664" timestamp="2014-01-31T13:22:28">
+  <properties />
+  <testcase classname="cz.actis.cms.CategoryTest" name="urlId is correct" time="2.523" />
+  <testcase classname="cz.actis.cms.CategoryTest" name="Method loadPublished Articles() retrieves correct data" time="2.423" />
+  <system-out><![CDATA[--Output from urlId is correct--
+--Output from Method loadPublished Articles() retrieves correct data--
+]]></system-out>
+  <system-err><![CDATA[--Output from urlId is correct--
+--Output from Method loadPublished Articles() retrieves correct data--
+]]></system-err>
+</testsuite>

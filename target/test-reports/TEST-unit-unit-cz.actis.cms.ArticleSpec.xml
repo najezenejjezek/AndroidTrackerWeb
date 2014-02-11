@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="lunak-e6510" name="cz.actis.cms.ArticleSpec" tests="1" time="1.565" timestamp="2014-01-31T13:22:36">
+  <properties />
+  <testcase classname="cz.actis.cms.ArticleSpec" name="Archive date must be greater than publish date" time="0.476" />
+  <system-out><![CDATA[--Output from Archive date must be greater than publish date--
+cz.actis.cms.Article : (unsaved)
+]]></system-out>
+  <system-err><![CDATA[--Output from Archive date must be greater than publish date--
+]]></system-err>
+</testsuite>

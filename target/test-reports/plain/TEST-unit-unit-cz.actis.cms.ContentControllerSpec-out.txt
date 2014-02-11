@@ -1,0 +1,5 @@
+--Output from Index generates model from service--
+--Output from Show creates correct command for existing Article--
+--Output from Show throws 404 for not existing Article--
+--Output from Article is correctly updated via Command data object--
+--Output from Article edit screen is rendered for not valid Command data object--

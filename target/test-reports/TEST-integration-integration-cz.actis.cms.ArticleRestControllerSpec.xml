@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="lunak-e6510" name="cz.actis.cms.ArticleRestControllerSpec" tests="1" time="1.429" timestamp="2014-01-31T13:22:59">
+  <properties />
+  <testcase classname="cz.actis.cms.ArticleRestControllerSpec" name="Load published Articles" time="1.378" />
+  <system-out><![CDATA[--Output from Load published Articles--
+[[id:2, articleState:[enumType:cz.actis.cms.ArticleState, name:PUBLISHED], articleUrl:bbb, body:<p>Hello WORLD!</p>, category:[id:1], dateArchived:2014-01-28T23:00:00Z, dateCreated:2014-01-31T13:17:58Z, datePublished:2014-01-27T23:00:00Z, lastUpdated:2014-01-31T13:17:58Z, title:Hello world], [id:3, articleState:[enumType:cz.actis.cms.ArticleState, name:PUBLISHED], articleUrl:ccc, body:<p>Hello WORLD!</p>, category:[id:2], dateArchived:2014-01-28T23:00:00Z, dateCreated:2014-01-31T13:17:58Z, datePublished:2014-01-27T23:00:00Z, lastUpdated:2014-01-31T13:17:58Z, title:Hello world]]
+[id:2, articleState:[enumType:cz.actis.cms.ArticleState, name:PUBLISHED], articleUrl:bbb, body:<p>Hello WORLD!</p>, category:[id:1], dateArchived:2014-01-28T23:00:00Z, dateCreated:2014-01-31T13:17:58Z, datePublished:2014-01-27T23:00:00Z, lastUpdated:2014-01-31T13:17:58Z, title:Hello world]
+When
+]]></system-out>
+  <system-err><![CDATA[--Output from Load published Articles--
+]]></system-err>
+</testsuite>

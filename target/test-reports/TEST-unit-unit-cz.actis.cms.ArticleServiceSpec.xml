@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="lunak-e6510" name="cz.actis.cms.ArticleServiceSpec" tests="4" time="2.834" timestamp="2014-01-31T13:22:33">
+  <properties />
+  <testcase classname="cz.actis.cms.ArticleServiceSpec" name="Method archiveAllArticles should transfer all Articles to state Archived" time="0.989" />
+  <testcase classname="cz.actis.cms.ArticleServiceSpec" name="Method loadAllPublishedArticles() should return all Articles in state PUBLISHED" time="0.454" />
+  <testcase classname="cz.actis.cms.ArticleServiceSpec" name="Command with valid data correctly updates Article and Category" time="0.453" />
+  <testcase classname="cz.actis.cms.ArticleServiceSpec" name="Command with incorrect data throws RuntimeException" time="0.338" />
+  <system-out><![CDATA[--Output from Method archiveAllArticles should transfer all Articles to state Archived--
+--Output from Method loadAllPublishedArticles() should return all Articles in state PUBLISHED--
+--Output from Command with valid data correctly updates Article and Category--
+--Output from Command with incorrect data throws RuntimeException--
+]]></system-out>
+  <system-err><![CDATA[--Output from Method archiveAllArticles should transfer all Articles to state Archived--
+--Output from Method loadAllPublishedArticles() should return all Articles in state PUBLISHED--
+--Output from Command with valid data correctly updates Article and Category--
+--Output from Command with incorrect data throws RuntimeException--
+]]></system-err>
+</testsuite>
